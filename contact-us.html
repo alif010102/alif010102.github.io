@@ -1,0 +1,141 @@
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Us | Anamhor</title>
+    <link rel="stylesheet" href="contact-us_files/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css"
+        integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="icon" href="contact-us_files/images/anamhor2.png" type="image/png" />
+</head>
+
+<body>
+    <!-- Header -->
+    <header class="header">
+        <nav class="navbar">
+            <div class="logo">
+                <a href="./">
+                    <img src="contact-us_files/images/anamhor.png" alt="logo">
+                </a>
+            </div>
+            <menu class="menu">
+                <ul>
+                    <li class="hidenavbar">
+                        <a href="./product">PRODUCTS</a>
+                    </li>
+                    <li class="hidenavbar">
+                        <a href="./about-us">ABOUT US</a>
+                    </li>
+                    <li class="hidenavbar">
+                        <a href="./contact-us">CONTACT US</a>
+                    </li>
+                    <li>
+                        <a onclick="showSidebar()">
+                            <i class="fa-solid fa-bars" id="menuBar" style="font-size: 15px;"></i>
+                        </a>
+                    </li>
+                </ul>
+            </menu>
+        </nav>
+    </header>
+    <!-- Sidebar -->
+    <sidebar>
+        <nav>
+            <ul class="sidebar">
+                <li>
+                    <a onclick="closeSidebar()">
+                        <i class="fa-solid fa-xmark" style="font-size: 20px;"></i>
+                    </a>
+                </li>
+                <li>
+                    <a href="./product">Product</a>
+                </li>
+                <li>
+                    <a href="./about-us">About Us</a>
+                </li>
+                <li>
+                    <a href="./contact-us">Contact Us</a>
+                </li>
+            </ul>
+        </nav>
+    </sidebar>
+    <!-- Isi Konten -->
+    <main class="main">
+        <!-- Judul -->
+        <div class="judul">
+            <div class="tulisanJudul">
+                <h1>Hubungi Kami</h1>
+            </div>
+            <div class="backgroundJudul"></div>
+        </div>
+        <!-- End of Judul -->
+        <!-- Isian -->
+        <div class="isi">
+            <form class="isian" action="https:api.web3forms.com/submit" method="POST">
+                <p>TINGGALKAN PESAN:</p>
+                <input type="hidden" name="access_key" value="fa78b320-eafb-47c2-96ac-a01c60d69ca2">
+                <input type="text" name="name" placeholder="Nama" required>
+                <input type="email" name="email" placeholder="Email" required>
+                <textarea name="message" id="message" placeholder="Pesan" required></textarea>
+                <div class="tombolKirim">
+                    <button type="submit">Kirim Form</button>
+                </div>
+            </form>
+            <div class="tempat">
+                <p>ALAMAT KANTOR:</p>
+                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d495.00016325998087!2d107.63154363562259!3d-7.009127899999986!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2e68e98792bd56b5%3A0xa70abaae72c26aaa!2sJl.%20Pikiran%20Rakyat%20No.12%2C%20Baleendah%2C%20Kec.%20Baleendah%2C%20Kabupaten%20Bandung%2C%20Jawa%20Barat%2040375!5e0!3m2!1sen!2sid!4v1737689540972!5m2!1sen!2sid" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+            </div>
+        </div>
+        <!-- End of Isian -->
+    </main>
+    <!-- footer -->
+    <footer>
+        <div class="copyright">
+            <p>Copyright &copy; 2025 CV ANAMHOR</p>
+        </div>
+        <div class="contact">
+            <div class="alamat">
+                <p>Alamat Kantor:</p>
+                <p>Jl. Pikiran Rakyat No.12, Komp. Wartawan, Kec. Baleendah, Kab. Bandung, Jawa Barat</p><br>
+                <p>Alamat Workshop:</p>
+                <p>Komp. Bukit Indah Cikahuripan Blok B.14, Kec. Ciparay, Kab. Bandung, Jawa Barat</p><br>
+                <p>Telepon: +6281 2207 2109</p>
+            </div>
+            <div class="socialMedia">
+                <ul>
+                    <li>
+                        <a href="#" class="instagram">
+                            <i class="fa-brands fa-instagram"></i>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#" class="facebook">
+                            <i class="fa-brands fa-square-facebook"></i>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="http://wa.me/628122072109" class="whatsapp">
+                            <i class="fa-brands fa-whatsapp"></i>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#" class="youtube">
+                            <i class="fa-brands fa-youtube"></i>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="mailto:anamhor_ergonomi@Yahoo.com" class="gmail">
+                            <i class="fa-solid fa-envelope"></i>
+                        </a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </footer>
+
+</body>
+<script src="contact-us_files/script.js"></script>
+
+</html>

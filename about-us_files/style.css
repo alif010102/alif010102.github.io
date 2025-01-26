@@ -1,0 +1,410 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Playwrite+IN:wght@100..400&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;500&display=swap");
+@import url('https://fonts.googleapis.com/css2?family=Courgette&display=swap');
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "montserrat", serif
+}
+
+body {
+    width: 100%;
+    height: auto;
+}
+
+/* Header */
+header {
+    z-index: 99;
+    position: fixed;
+    padding: 20px 20px;
+    width: 100%;
+    background-color: rgba(255, 255, 255, 0.2);
+    transition: all 0.5s ease;
+    justify-items: center;
+    align-items: center;
+}
+
+.header-scrolled {
+    background-color: black;
+}
+
+.header-scrolled nav .logo a {
+    color: #fff;
+}
+
+.header-scrolled nav menu ul li a {
+    color: white;
+}
+
+.navbar {
+    width: 80%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo a {
+    text-decoration: none;
+    color: black;
+
+}
+.logo a img{
+    height: 30px;
+    transition: all 0.5s ease;
+}
+.logo a img:hover{
+    transform: scale(1.05);
+    transition: all 0.5s ease;
+}
+
+.menu ul {
+    display: flex;
+    gap: 20px;
+}
+
+.menu ul li {
+    list-style: none;
+}
+
+.menu ul li a {
+    text-decoration: none;
+    color: black;
+    transition: all 0.2s ease-in-out;
+}
+
+.menu ul li a:hover {
+    color: red;
+}
+.sidebar{
+    position: fixed;
+    top: 0;
+    right: 0;
+    height: 100vh;
+    width: 250px;
+    z-index: 999;
+    background-color: #fff;
+    backdrop-filter: blur(10px);
+    display: none;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    transition: all 0.5s ease-in-out;
+}
+.sidebar li{
+    display: flex;
+    list-style: none;
+    padding: 10px;
+    width: 100%;
+    height: auto;
+    background-color: rgb(245, 245, 245);
+    border-bottom: #ffffff 1px solid;
+}
+.sidebar li:hover{
+  background-color: #f0f0f0;
+}
+.sidebar li a{
+    text-decoration: none;
+    color: #000;
+    width: 100%;
+    height: auto;
+}
+.sidebar li a:hover{
+  color: red;
+}
+.sidebar-scrolled {
+  background-color: rgb(73, 73, 73);
+}
+.sidebar-scrolled li{
+  background-color: rgb(73, 73, 73);
+}
+.sidebar-scrolled li a{
+color: #fff;
+}
+#menuBar {
+    display: none;
+}
+@media screen and (max-width: 765px) {
+    .hidenavbar{
+        display: none;
+    }
+    #menuBar{
+        display: block;
+    }
+}
+/* End of Header */
+.main{
+  width: 100%;
+  height: auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+
+}
+.satu{
+  display: flex;
+  width: 100%;
+  height: auto;
+  background-color: rgb(227, 234, 235);
+  padding: 80px 10% 20px;
+  justify-content: center;
+}
+.satuIsi{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  width: 50%;
+  padding-left: 30px;
+
+}
+.satuIsi h3{
+  font-family: "Courgette",serif;
+  font-size: 25px;
+  color: red;
+  text-align: right;
+}
+.satuIsi p{
+  font-family: "Poppins",serif;
+  text-align: right;
+}
+.satuFoto{
+  width: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 20px;
+}
+.satuFoto img{
+  width: 100%;
+  height: 100%;
+  border-radius: 2em;
+  transition: all 0.5s ease-in-out;
+}
+.satuFoto img:hover{
+  transform: scale(1.05);
+  box-shadow: 0 0px 25px 3px rgba(0, 0, 0, 0.2);
+  transition: all 0.5s ease-in-out;
+}
+.dua{
+  display: flex;
+  width: 100%;
+  height: auto;
+  padding: 20px 10% 0;
+  justify-content: center;
+}
+.duaIsi{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  width: 50%;
+  padding-left: 30px;
+
+}
+.duaIsi h3{
+  font-family: "Courgette",serif;
+  font-size: 25px;
+  color: red;
+}
+.duaIsi p{
+  font-family: "Poppins",serif;
+}
+.duaFoto{
+  width: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 20px;
+}
+.duaFoto img{
+  width: 100%;
+  height: 100%;
+  border-radius: 2em;
+  transition: all 0.5s ease-in-out;
+}
+.duaFoto img:hover{
+  transform: scale(1.05);
+  box-shadow: 0 0px 25px 3px rgba(0, 0, 0, 0.2);
+  transition: all 0.5s ease-in-out;
+}
+.tiga{
+  display: flex;
+  width: 100%;
+  height: auto;
+  padding: 20px 10% 20px;
+  justify-content: center;
+}
+.tigaIsi{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  width: 50%;
+  padding-left: 30px;
+
+}
+.tigaIsi h3{
+  font-family: "Courgette",serif;
+  font-size: 25px;
+  color: red;
+  text-align: right;
+}
+.tigaIsi p{
+  font-family: "Poppins",serif;
+  text-align: right;
+}
+.tigaFoto{
+  width: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 20px;
+}
+.tigaFoto img{
+  width: 100%;
+  height: 100%;
+  border-radius: 2em;
+  transition: all 0.5s ease-in-out;
+}
+.tigaFoto img:hover{
+  transform: scale(1.05);
+  box-shadow: 0 0px 25px 3px rgba(0, 0, 0, 0.2);
+  transition: all 0.5s ease-in-out;
+}
+.empat{
+  width: 100%;
+  height: auto;
+  background-color: rgb(227, 234, 235);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 20px;
+}
+.empatJudul h3{
+  font-size: 30px;
+  margin-top: 20px;
+  color: black
+}
+.empatIsi{
+  display: flex;
+  justify-content: center;
+  align-items: stretch;
+  width: 100%;
+  height: auto;
+  min-height: 40vh;
+}
+.cardVisi {
+  width: 100%;
+  height: auto;
+  margin: 20px;
+  background-color: white;
+  border-radius: 1em;
+  transition: all 0.3s ease-in-out;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 20px;
+  flex-grow: 1;
+}
+.cardVisi:hover{
+  transform: scale(1.01);
+  box-shadow: 0 0 10px 1px rgba(0, 0, 0, 0.2);
+}
+.cardVisi h3{
+  margin: 10px;
+  font-size: 20px;
+  font-family: "Courgette",serif;
+  color: red;
+}
+.cardVisi p{
+  text-align: center;
+  font-family: "Poppins",serif;
+}
+@media screen and (min-width:1000px) {
+  .satuFoto,.duaFoto,.tigaFoto{
+    width: 30%;
+  }
+  .empatIsi{
+    width: 60%;
+  }
+}
+@media screen and (max-width: 765px) {
+  .satu,.tiga{
+    flex-direction: column-reverse;
+  }
+  .dua,.empatIsi{
+    flex-direction: column;
+  }
+  .satuIsi,.satuFoto,.duaFoto,.duaIsi,.tigaFoto,.tigaIsi {
+    width: 100%;
+    padding-left: 0;
+  }
+  .cardVisi{
+    width: auto;
+  }
+  .satuIsi p,.satuIsi h3,.duaIsi p,.duaIsi h3,.tigaIsi p,.tigaIsi h3{
+    text-align: center;
+  }
+}
+/* Footer */
+.copyright{
+  margin-top: 0px;
+  width: 100%;
+  height: 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: black;
+  border-bottom: #fff 1px solid;
+}
+.copyright p{
+  color: white;
+}
+.contact{
+  background-color: #000;
+  display: flex;
+  padding: 20px;
+  width: 100%;
+}
+.alamat{
+  width: 60%;
+  color: white;
+}
+.socialMedia{
+  padding: 0 20px;
+  width: 40%;
+  display: flex;
+  align-items: center;
+}
+.socialMedia ul{
+  width: 100%;
+  display: flex;
+  justify-content: space-around;
+
+}
+.socialMedia ul li{
+  list-style: none;
+
+}
+.socialMedia ul li a{
+  color: white;
+  text-decoration: none;
+  font-size: 30px;
+  transition: all 0.3s ease;
+}
+.socialMedia ul li a:hover{
+  color: red;
+  transition: all 0.3s ease;
+}
+@media screen and (max-width: 765px) {
+  .contact{
+      flex-direction: column;
+  }
+  .alamat{
+      width: 100%;
+  }
+  .socialMedia{
+      width: 100%;
+      margin-top: 20px;
+  }
+}
+/* End of Footer */

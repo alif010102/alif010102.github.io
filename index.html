@@ -1,0 +1,411 @@
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Anamhor | Ergonomics Laboratories</title>
+    <link rel="stylesheet" href="index_files/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css" integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="icon" href="index_files/images/anamhor2.png" type="image/png" />
+</head>
+
+<body>
+    <!-- Header -->
+    <header class="header">
+        <nav class="navbar">
+            <div class="logo">
+                <a href="./">
+                    <img src="index_files/images/anamhor.png" alt="logo">
+                </a>
+            </div>
+            <menu class="menu">
+                <ul>
+                    <li class="hidenavbar">
+                        <a href="./product">PRODUCTS</a>
+                    </li>
+                    <li class="hidenavbar">
+                        <a href="./about-us">ABOUT US</a>
+                    </li>
+                    <li class="hidenavbar">
+                        <a href="./contact-us">CONTACT US</a>
+                    </li>
+                    <li>
+                        <a onclick="showSidebar()">
+                            <i class="fa-solid fa-bars" id="menuBar" style="font-size: 15px;"></i>
+                        </a>
+                    </li>
+                </ul>
+            </menu>
+        </nav>
+    </header>
+    <!-- Sidebar -->
+    <sidebar >
+        <nav>
+            <ul class="sidebar">
+                <li>
+                    <a onclick="closeSidebar()">
+                        <i class="fa-solid fa-xmark" style="font-size: 20px;"></i>
+                    </a>
+                </li>
+                <li>
+                    <a href="./product">Product</a>
+                </li>
+                <li>
+                    <a href="./about-us">About Us</a>
+                </li>
+                <li>
+                    <a href="./contact-us">Contact Us</a>
+                </li>
+            </ul>
+        </nav>
+    </sidebar>
+
+    <main class="main">
+        <!-- Slide Image -->
+        <div class="slider-container">
+            <div class="slider">
+                <div class="slide">
+                    <img src="index_files/images/slide1.jpg" alt="Image 1">
+                    <div class="caption">
+                        <h4>Alat Berkualitas</h4>
+                        <p>Memiliki Kepresisian Tinggi</p><br>
+                        <a href="#">LEBIH LANJUT</a>
+                    </div>
+                </div>
+                <div class="slide">
+                    <img src="index_files/images/slide2.jpg" alt="Image 2">
+                    <div class="caption">
+                        <h4>Desain Inovatif</h4>
+                        <p>Solusi Ergonomi Untuk Professional</p>
+                    </div>
+                </div>
+                <div class="slide">
+                    <img src="index_files/images/slide3.jpg" alt="Image 3">
+                    <div class="caption">
+                        <h4>Rancang Ulang Lingkungan Kerja</h4>
+                        <p>Ciptakan Lingkungan Kerja Sehat dan Nyaman dengan Alat Ergonomi</p>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Previous & Next buttons -->
+            <button class="prev" onclick="moveSlide(-1)">&#10094;</button>
+            <button class="next" onclick="moveSlide(1)">&#10095;</button>
+        </div>
+        <!-- End of Slide Image -->
+        <!-- summary of About Us -->
+        <div class="about-us">
+            <div class="contentAboutUs">
+                <div class="captionAboutUs">
+                    <div class="judulAboutUs">
+                        <h3>Tentang Kami</h3>
+                    </div>
+                    <div class="perusahaanAboutUs">
+                        <h3>ANAMHOR</h3>
+                    </div>
+                    <div class="ceritaSingkat">
+                        <p style="font-weight: 400; font-size: 13px; text-align: center; color: black;">Anamhor adalah perusahaan yang bergerak dibidang pengadaan peralatan/perlengkapan laboratorium di jurusan Teknik Industri khususnya Perancangan Sistem Kerja Dan Ergonomi (PSK&E)
+                        </p>
+                    </div>
+                    <div class="selengkapnya">
+                        <a href="/about-us.html">SELENGKAPNYA &#10142;</a>
+                    </div>
+
+                </div>
+                <div class="fotoAboutUs">
+                    <img src="index_files/images/about-us.png" alt="AboutUs">
+                </div>
+            </div>
+        </div>
+        <!-- End of summary of About Us -->
+        <!-- Produk unggulan -->
+        <div class="produk-unggulan">
+            <div class="judulProdukUnggulan">
+                <div class="img-productUnggulan">
+                    <p>Produk Unggulan</p>
+                </div>
+            </div>
+            <div class="contentProdukUnggulan"></div>
+        </div>
+        <!-- End of Produk Unggulan -->
+        <!-- Katalog Produk Unggulan -->
+        <div class="container">
+            <div class="card__container">
+                <article class="card__article">
+                    <img src="index_files/images/landscape-1.jpg" alt="image" class="card__img">
+
+                    <div class="card__data">
+                        <span class="card__description">Kategori #1</span>
+                        <h2 class="card__title">Kursi Antropometri</h2>
+                        <a href="/product.html" class="card__button">Baca Selengkapnya</a>
+                    </div>
+                </article>
+
+                <article class="card__article">
+                    <img src="index_files/images/landscape-2.jpg" alt="image" class="card__img">
+
+                    <div class="card__data">
+                        <span class="card__description">Kategori #2</span>
+                        <h2 class="card__title">Ruang Iklim</h2>
+                        <a href="/product.html" class="card__button">Baca Selengkapnya</a>
+                    </div>
+                </article>
+
+                <article class="card__article">
+                    <img src="index_files/images/landscape-3.jpg" alt="image" class="card__img">
+
+                    <div class="card__data">
+                        <span class="card__description">Kategori #3</span>
+                        <h2 class="card__title">Kecepatan Reaksi</h2>
+                        <a href="/product.html" class="card__button">Baca Selengkapnya</a>
+                    </div>
+                </article>
+            </div>
+        </div>
+        <!-- End of Katalog Produk Unggulan -->
+        <!-- Pembeli -->
+         <div class="customer">
+            <div class="judulCustomer">
+                <p class="judul-customer">CUSTOMER</p>
+                <p class="subjudul-customer">Perguruan Tinggi yang Telah Menggunakan Produk Kami:</p>
+            </div>
+            <div class="contentCustomer">
+                <div class="containerCustomer">
+                    <img src="index_files/images/customer/unpar.png" alt="">
+                </div>
+                <div class="containerCustomer">
+                    <img src="index_files/images/customer/unhas.png" alt="">
+                </div>
+                <div class="containerCustomer">
+                    <img src="index_files/images/customer/undip.png" alt="">
+                </div>
+                <div class="containerCustomer">
+                    <img src="index_files/images/customer/ukm.png" alt="" srcset="">
+                </div>
+                <div class="containerCustomer">
+                    <img src="index_files/images/customer/unjani.png" alt="">
+                </div>
+                <div class="containerCustomer">
+                    <img src="index_files/images/customer/UAJ Jakarta.png" alt="">
+                </div>
+                <div class="containerCustomer">
+                    <img src="index_files/images/customer/itenas.png" style="width: max-content; height: auto;" alt="">
+                </div>
+                <div class="containerCustomer">
+                    <img src="index_files/images/customer/utama.png" style="width: max-content; height: auto;" alt="">
+                </div>
+                <div class="containerCustomer">
+                    <img src="index_files/images/customer/stind-padang.png" alt="" srcset="">
+                </div>
+                <div class="containerCustomer">
+                    <img src="index_files/images/customer/sttb.png" alt="">
+                </div>
+                <div class="containerCustomer">
+                    <img src="index_files/images/customer/uii yogyakarta.png" alt="">
+                </div>
+                <div class="containerCustomer">
+                    <img src="index_files/images/customer/stt musi.png" alt="">
+                </div>
+                <div class="containerCustomer">
+                    <img src="index_files/images/customer/ubhara jaya.png" alt="">
+                </div>
+                <div class="containerCustomer">
+                    <img src="index_files/images/customer/stt texmaco.png" alt="">
+                </div>
+                <div class="containerCustomer">
+                    <img src="index_files/images/customer/utb bandar lampung.png" alt="">
+                </div>
+                <div class="containerCustomer">
+                    <img src="index_files/images/customer/UMS Surakarta.png" alt="">
+                </div>
+                <div class="containerCustomer">
+                    <img src="index_files/images/customer/itm medan.png" alt="">
+                </div>
+                <div class="containerCustomer">
+                    <img src="index_files/images/customer/unissula semarang.png" alt="">
+                </div>
+                <div class="containerCustomer">
+                    <img src="index_files/images/customer/unikom.png" alt="">
+                </div>
+                <div class="containerCustomer">
+                    <img src="index_files/images/customer/Universitas Pancasila.png" alt="">
+                </div>
+                <div class="containerCustomer">
+                    <img src="index_files/images/customer/stmi deperindag.png" alt="">
+                </div>
+                <div class="containerCustomer">
+                    <img src="index_files/images/customer/its.png" alt="">
+                </div>
+                <div class="containerCustomer">
+                    <img src="index_files/images/customer/stt-bt.png" alt="">
+                </div>
+                <div class="containerCustomer">
+                    <img src="index_files/images/customer/unwim.png" alt="">
+                </div>
+                <div class="containerCustomer">
+                    <img src="index_files/images/customer/upn yogya.png" alt="">
+                </div>
+                <div class="containerCustomer">
+                    <img src="index_files/images/customer/ithb.png" alt="">
+                </div>
+                <div class="containerCustomer">
+                    <img src="index_files/images/customer/Unika Widya Mandala Surabaya.png" alt="">
+                </div>
+                <div class="containerCustomer">
+                    <img src="index_files/images/customer/USB.png" alt="" srcset="">
+                </div>
+                <div class="containerCustomer">
+                    <img src="index_files/images/customer/uaj yogya.png" alt="">
+                </div>
+                <div class="containerCustomer">
+                    <img src="index_files/images/customer/UPNVJ.png" alt="">
+                </div>
+                <div class="containerCustomer">
+                    <img src="index_files/images/customer/untar.png" alt="">
+                </div>
+                <div class="containerCustomer">
+                    <img src="index_files/images/customer/sttal.png" alt="">
+                </div>
+                <div class="containerCustomer">
+                    <img src="index_files/images/customer/mercu-buana.png" alt="" srcset="">
+                </div>
+                <div class="containerCustomer">
+                    <img src="index_files/images/customer/unla.png" alt="" srcset="">
+                </div>
+                <div class="containerCustomer">
+                    <img src="index_files/images/customer/Widya-Mataram-Yogyakarta.png" alt="" srcset="">
+                </div>
+                <div class="containerCustomer">
+                    <img src="index_files/images/customer/unma.png" alt="" srcset="">
+                </div>
+                <div class="containerCustomer">
+                    <img src="index_files/images/customer/unigal.png" alt="" srcset="">
+                </div>
+                <div class="containerCustomer">
+                    <img src="index_files/images/customer/Univ Panca Sakti Tegal.png" alt="" srcset="">
+                </div>
+                <div class="containerCustomer">
+                    <img src="index_files/images/customer/USM Banda Aceh.png" alt="" srcset="">
+                </div>
+                <div class="containerCustomer">
+                    <img src="index_files/images/customer/Univ. Tanjung Pura Kalimantan.png" alt="" srcset="">
+                </div>
+                <div class="containerCustomer">
+                    <img src="index_files/images/customer/Univ. PGRI Ronggolawe Tuban.png" alt="" srcset="">
+                </div>
+                <div class="containerCustomer">
+                    <img src="index_files/images/customer/Unika Petra.png" alt="" srcset="">
+                </div>
+                <div class="containerCustomer">
+                    <img src="index_files/images/customer/ITM Tomohon Manado.png" alt="" srcset="">
+                </div>
+                <div class="containerCustomer">
+                    <img src="index_files/images/customer/STTWastukancana.png" alt="" srcset="">
+                </div>
+                <div class="containerCustomer">
+                    <img src="index_files/images/customer/Univ.Telkom.png" alt="" srcset="">
+                </div>
+                <div class="containerCustomer">
+                    <img src="index_files/images/customer/UMM Malang.png" alt="" srcset="">
+                </div>
+                <div class="containerCustomer">
+                    <img src="index_files/images/customer/UMP Palembang.png" alt="" srcset="">
+                </div>
+                <div class="containerCustomer">
+                    <img src="index_files/images/customer/UPH.png" alt="" srcset="">
+                </div>
+                <div class="containerCustomer">
+                    <img src="index_files/images/customer/UBP.png" alt="" srcset="">
+                </div>
+                <div class="containerCustomer">
+                    <img src="index_files/images/customer/STTM Cileungsi.png" alt="" srcset="">
+                </div>
+                <div class="containerCustomer">
+                    <img src="index_files/images/customer/STT Wiworotomo.png" alt="" srcset="">
+                </div>
+                <div class="containerCustomer">
+                    <img src="index_files/images/customer/STT Garut.png" alt="" srcset="">
+                </div>
+                <div class="containerCustomer">
+                    <img src="index_files/images/customer/UMUH Sidoarjo.png" alt="" srcset="">
+                </div>
+                <div class="containerCustomer">
+                    <img src="index_files/images/customer/Usakti.png" alt="" srcset="">
+                </div>
+                <div class="containerCustomer">
+                    <img src="index_files/images/customer/Untirta.png" alt="" srcset="">
+                </div>
+                <div class="containerCustomer">
+                    <img src="index_files/images/customer/UNSIKA.png" alt="" srcset="">
+                </div>
+                <div class="containerCustomer">
+                    <img src="index_files/images/customer/Univ. Surya Darma.png" alt="" srcset="">
+                </div>
+                <div class="containerCustomer">
+                    <img src="index_files/images/customer/ITPLN.png" alt="" srcset="">
+                </div>
+                <div class="containerCustomer">
+                    <img src="index_files/images/customer/ITK Kalimantan.png" alt="" srcset="">
+                </div>
+                <div class="containerCustomer">
+                    <img src="index_files/images/customer/STT Cipasung.png" alt="" srcset="">
+                </div>
+                <div class="containerCustomer">
+                    <img src="index_files/images/customer/Univ Akhmad Dahlan.png" alt="" srcset="">
+                </div>
+                <div class="containerCustomer">
+                    <img src="index_files/images/customer/Unsera.png" alt="" srcset="">
+                </div>
+            </div>
+            <p class="subjudul-customer" style="margin-top: 30px;">Dan Masih Banyak Yang Lainnya</p>
+         </div>
+        <!-- End of Pembeli -->
+    </main>
+    <footer class="footer">
+        <div class="copyright">
+            <p>Copyright &copy; 2025 CV ANAMHOR</p>
+        </div>
+        <div class="contact">
+            <div class="alamat">
+                <p>Alamat Kantor:</p>
+                <p>Jl. Pikiran Rakyat No.12, Komp. Wartawan, Kec. Baleendah, Kab. Bandung, Jawa Barat</p><br>
+                <p>Alamat Workshop:</p>
+                <p>Komp. Bukit Indah Cikahuripan Blok B.14, Kec. Ciparay, Kab. Bandung, Jawa Barat</p><br>
+                <p>Telepon: +6281 2207 2109</p>
+            </div>
+            <div class="socialMedia">
+                <ul>
+                    <li>
+                        <a href="#" class="instagram">
+                            <i class="fa-brands fa-instagram"></i>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#" class="facebook">
+                            <i class="fa-brands fa-square-facebook"></i>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="http://wa.me/628122072109" class="whatsapp">
+                            <i class="fa-brands fa-whatsapp"></i>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#" class="youtube">
+                            <i class="fa-brands fa-youtube"></i>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="mailto:anamhor_ergonomi@Yahoo.com" class="gmail">
+                            <i class="fa-solid fa-envelope"></i>
+                        </a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </footer>
+
+</body>
+<script src="index_files/script.js"></script>
+
+</html>

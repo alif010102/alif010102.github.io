@@ -1,0 +1,741 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Playwrite+IN:wght@100..400&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;500&display=swap");
+@import url('https://fonts.googleapis.com/css2?family=Courgette&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "montserrat", serif
+}
+
+body {
+  width: 100%;
+  height: auto;
+}
+
+/* Header */
+header {
+  z-index: 99;
+  position: fixed;
+  padding: 20px 20px;
+  width: 100%;
+  background-color: rgba(255, 255, 255, 0.2);
+  transition: all 0.5s ease;
+  justify-items: center;
+  align-items: center;
+}
+
+.header-scrolled {
+  background-color: black;
+}
+
+.header-scrolled nav .logo a {
+  color: #fff;
+}
+
+.header-scrolled nav menu ul li a {
+  color: white;
+}
+
+.navbar {
+  width: 80%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.logo a {
+  text-decoration: none;
+  color: black;
+
+}
+
+.logo a img {
+  height: 30px;
+  transition: all 0.5s ease;
+}
+
+.logo a img:hover {
+  transform: scale(1.05);
+  transition: all 0.5s ease;
+}
+
+.menu ul {
+  display: flex;
+  gap: 20px;
+}
+
+.menu ul li {
+  list-style: none;
+}
+
+.menu ul li a {
+  text-decoration: none;
+  color: black;
+  transition: all 0.2s ease-in-out;
+}
+
+.menu ul li a:hover {
+  color: red;
+}
+
+.sidebar {
+  position: fixed;
+  top: 0;
+  right: 0;
+  height: 100vh;
+  width: 250px;
+  z-index: 999;
+  background-color: #fff;
+  backdrop-filter: blur(10px);
+  display: none;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+  transition: all 0.5s ease-in-out;
+}
+
+.sidebar li {
+  display: flex;
+  list-style: none;
+  padding: 10px;
+  width: 100%;
+  height: auto;
+  background-color: rgb(245, 245, 245);
+  border-bottom: #ffffff 1px solid;
+}
+
+.sidebar li:hover {
+  background-color: #f0f0f0;
+}
+
+.sidebar li a {
+  text-decoration: none;
+  color: #000;
+  width: 100%;
+  height: auto;
+}
+
+.sidebar li a:hover {
+  color: red;
+}
+
+.sidebar-scrolled {
+  background-color: rgb(73, 73, 73);
+}
+
+.sidebar-scrolled li {
+  background-color: rgb(73, 73, 73);
+}
+
+.sidebar-scrolled li a {
+  color: #fff;
+}
+
+#menuBar {
+  display: none;
+}
+
+@media screen and (max-width: 765px) {
+  .hidenavbar {
+    display: none;
+  }
+
+  #menuBar {
+    display: block;
+  }
+}
+
+/* End of Header */
+/* Image Slider */
+
+.slider-container {
+  position: relative;
+  width: 100%;
+  /* Lebar slider mengikuti ukuran layar */
+  height: 80vh;
+  /* Tinggi slider sesuai tinggi layar */
+  overflow: hidden;
+}
+
+.slider {
+  display: flex;
+  transition: transform 0.5s ease;
+}
+
+.slide {
+  min-width: 100%;
+  height: 100%;
+  position: relative;
+  /* Agar caption dapat diposisikan relatif terhadap slide */
+}
+
+.slide img {
+  filter: brightness(0.5);
+  width: 100%;
+  height: 80vh;
+  object-fit: cover;
+  display: block;
+}
+
+/* Gaya untuk caption di tengah gambar */
+.caption {
+  position: absolute;
+  top: 50%;
+  /* Posisi vertikal di tengah */
+  left: 50%;
+  /* Posisi horizontal di tengah */
+  transform: translate(-50%, -50%);
+  /* Menggeser elemen untuk benar-benar berada di tengah */
+  background-color: rgba(0, 0, 0, 0.3);
+  /* Latar belakang semi-transparan */
+  color: white;
+  /* Teks berwarna putih */
+  font-size: 24px;
+  padding: 20px;
+  border-radius: 5px;
+  text-align: center;
+  /* Agar teks caption rata tengah */
+  width: 60%;
+  /* Lebar caption mengikuti lebar gambar */
+  height: auto;
+}
+
+.caption a {
+  font-weight: 600;
+  font-size: 10px;
+  text-decoration: none;
+  color: rgb(255, 0, 0);
+  background-color: rgb(255, 255, 255);
+  border-radius: 2em;
+  padding: 10px 15px;
+  transition: all 0.3s ease;
+  border: #fff 1px solid;
+  margin-bottom: 20px;
+}
+
+.caption a:hover {
+  text-decoration: none;
+  color: rgb(255, 255, 255);
+  background-color: rgb(255, 0, 0);
+  border-radius: 10px;
+  border: red 1px solid;
+}
+
+/* Tombol navigasi kiri dan kanan */
+button {
+  position: absolute;
+  top: 50%;
+  /* Posisi vertikal di tengah */
+  transform: translateY(-50%);
+  /* Geser ke atas atau bawah untuk benar-benar di tengah */
+  background-color: rgba(0, 0, 0, 0);
+  color: white;
+  border: none;
+  font-size: 30px;
+  padding: 10px;
+  cursor: pointer;
+  z-index: 10;
+  transition: all 0.3s ease;
+}
+
+button:hover {
+  background-color: rgba(0, 0, 0, 0.1);
+}
+
+.prev {
+  left: 10px;
+}
+
+.next {
+  right: 10px;
+}
+
+/* Image Slider Selesai */
+/* Summary of About Us */
+.about-us {
+  display: flex;
+  width: 100%;
+  height: auto;
+  justify-content: center;
+}
+
+.contentAboutUs {
+  display: flex;
+  padding: 20px 0px;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+
+.captionAboutUs {
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+  width: 60%;
+  padding: 30px;
+  align-items: center;
+  justify-content: center;
+}
+
+.judulAboutUs {
+  font-size: 20px;
+  padding: 10px 10px 0 10px;
+}
+
+.judulAboutUs h3 {
+  font-family: "Playwrite IN", serif;
+  color: red;
+}
+
+.perusahaanAboutUs {
+  font-size: 35px;
+  padding: 10px;
+  color: black;
+}
+
+.selengkapnya {
+  margin-top: 20px;
+  padding: 10px 0 0;
+}
+
+.selengkapnya a {
+  text-decoration: none;
+  color: black;
+  transition: all 0.3s ease;
+}
+
+.selengkapnya a:hover {
+  color: red;
+}
+
+.fotoAboutUs {
+  display: flex;
+  align-items: center;
+  width: 40%;
+  padding: 10px;
+}
+
+.fotoAboutUs img {
+  border-radius: 20px;
+  width: 100%;
+  transition: all 0.3s ease;
+
+}
+
+.fotoAboutUs img:hover {
+  transform: scale(1.02);
+  transition: all 0.3s ease;
+  box-shadow: 0 1px 8px;
+}
+
+@media screen and (max-width: 765px) {
+  .about-us {
+    height: fit-content;
+    width: 100%;
+  }
+
+  .contentAboutUs {
+    height: auto;
+    width: 100%;
+    padding: 30px;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .captionAboutUs {
+    width: 100%;
+    height: auto;
+  }
+
+  .fotoAboutUs {
+    width: 90%;
+    height: auto;
+    padding: 0 0 20px;
+  }
+
+  .fotoAboutUs img {
+    border-radius: 20px;
+    width: 100%;
+
+  }
+}
+@media screen and (min-width: 1000px) {
+  .fotoAboutUs img {
+    width: 380px;
+  
+  }
+}
+
+/* End of Summary About Us */
+/* Produk Unggulan */
+.img-productUnggulan {
+  width: 100%;
+  height: 250px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-size: cover;
+  background-image: url(images/product-unggulan.jpg);
+  background-attachment: fixed;
+  z-index: -1;
+}
+
+.img-productUnggulan p {
+  font-family: "Playwrite IN", serif;
+  color: red;
+  font-size: 50px;
+  padding: 10px 10px 0 10px;
+  z-index: 1;
+}
+
+@media screen and (max-width: 765px) {
+  .img-productUnggulan p {
+    font-size: 30px;
+  }
+}
+
+/* End of Produk Unggulan */
+/* Katalog Produk Unggulan */
+
+
+/*=============== VARIABLES CSS ===============*/
+:root {
+  /*========== Colors ==========*/
+  /*Color mode HSL(hue, saturation, lightness)*/
+  --first-color: hsl(0, 61%, 38%);
+  --title-color: hsl(0, 0%, 15%);
+  --text-color: hsl(0, 0%, 35%);
+  --body-color: hsl(0, 0%, 95%);
+  --container-color: hsl(0, 0%, 100%);
+
+  /*========== Font and typography ==========*/
+  /*.5rem = 8px | 1rem = 16px ...*/
+  --body-font: "Poppins", sans-serif;
+  --h2-font-size: 1.25rem;
+  --small-font-size: .813rem;
+}
+
+/*========== Responsive typography ==========*/
+@media screen and (min-width: 1120px) {
+  :root {
+    --h2-font-size: 1.5rem;
+    --small-font-size: .875rem;
+  }
+}
+
+/*=============== BASE ===============*/
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
+body {
+  font-family: var(--body-font);
+  background-color: var(--body-color);
+  color: var(--text-color);
+}
+
+.card__container img{
+  filter: brightness(0.5);
+}
+
+img {
+  display: block;
+  max-width: 100%;
+  height: auto;
+}
+
+/*=============== CARD ===============*/
+.container {
+  display: grid;
+  place-items: center;
+  margin-inline: 1.5rem;
+  padding-block: 5rem;
+  height: auto;
+}
+
+.card__container {
+  display: grid;
+  row-gap: 3.5rem;
+}
+
+.card__article {
+  position: relative;
+  overflow: hidden;
+}
+
+.card__img {
+  width: 328px;
+  border-radius: 1.5rem;
+}
+
+.card__data {
+  width: 280px;
+  background-color: var(--container-color);
+  padding: 1.5rem 2rem;
+  box-shadow: 0 8px 24px hsla(0, 0%, 0%, .15);
+  border-radius: 1rem;
+  position: absolute;
+  bottom: -9rem;
+  left: 0;
+  right: 0;
+  margin-inline: auto;
+  opacity: 0;
+  transition: opacity 1s 1s;
+}
+
+.card__description {
+  display: block;
+  font-size: var(--small-font-size);
+  margin-bottom: .25rem;
+}
+
+.card__title {
+  font-size: var(--h2-font-size);
+  font-weight: 500;
+  color: var(--title-color);
+  margin-bottom: .75rem;
+}
+
+.card__button {
+  text-decoration: none;
+  font-size: var(--small-font-size);
+  font-weight: 500;
+  color: var(--first-color);
+}
+
+.card__button:hover {
+  text-decoration: underline;
+}
+
+/* Naming animations in hover */
+.card__article:hover .card__data {
+  animation: show-data 1s forwards;
+  opacity: 1;
+  transition: opacity .3s;
+}
+
+.card__article:hover {
+  animation: remove-overflow 2s forwards;
+}
+
+.card__article:not(:hover) {
+  animation: show-overflow 2s forwards;
+}
+
+.card__article:not(:hover) .card__data {
+  animation: remove-data 1s forwards;
+}
+
+/* Card animation */
+@keyframes show-data {
+  50% {
+    transform: translateY(-10rem);
+  }
+
+  100% {
+    transform: translateY(-7rem);
+  }
+}
+
+@keyframes remove-overflow {
+  to {
+    overflow: initial;
+  }
+}
+
+@keyframes remove-data {
+  0% {
+    transform: translateY(-7rem);
+  }
+
+  50% {
+    transform: translateY(-10rem);
+  }
+
+  100% {
+    transform: translateY(.5rem);
+  }
+}
+
+@keyframes show-overflow {
+  0% {
+    overflow: initial;
+    pointer-events: none;
+  }
+
+  50% {
+    overflow: hidden;
+  }
+}
+
+/*=============== BREAKPOINTS ===============*/
+/* For small devices */
+@media screen and (max-width: 340px) {
+  .container {
+    margin-inline: 1rem;
+  }
+
+  .card__data {
+    width: 250px;
+    padding: 1rem;
+  }
+}
+
+/* For medium devices */
+@media screen and (min-width: 768px) {
+  .card__container {
+    grid-template-columns: repeat(2, 1fr);
+    column-gap: 1.5rem;
+  }
+}
+
+/* For large devices */
+@media screen and (min-width: 1120px) {
+  .container {
+    height: auto;
+  }
+
+  .card__container {
+    grid-template-columns: repeat(3, 1fr);
+  }
+
+  .card__img {
+    width: 348px;
+  }
+
+  .card__data {
+    width: 316px;
+    padding-inline: 2.5rem;
+  }
+}
+
+/* End of Katalog Produk Unggulan */
+/* Pembeli */
+.customer {
+  background-color: rgb(223, 223, 223);
+  display: flex;
+  flex-direction: column;
+  padding: 20px;
+  justify-content: center;
+  align-items: center;
+}
+
+.judul-customer {
+  font-family: "Courgette", serif;
+  color: red;
+  font-weight: bold;
+  font-size: 30px;
+  text-align: center;
+  padding: 5px;
+}
+
+.subjudul-customer {
+  font-family: "montserrat", serif;
+  text-align: center;
+  color: #000;
+  font-size: 15px;
+  padding: 5px;
+}
+
+.contentCustomer {
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1em;
+  justify-content: center;
+}
+
+.containerCustomer {
+  height: 100px;
+  width: 100px;
+  transition: all 0.3s ease-in-out;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.containerCustomer img {
+  height: 90%;
+  width: max-content;
+}
+
+.containerCustomer:hover {
+  transform: scale(1.5);
+}
+
+/* End of Pembeli */
+/* Footer */
+.copyright {
+  width: 100%;
+  height: 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: black;
+  border-bottom: #fff 1px solid;
+}
+
+.copyright p {
+  color: white;
+}
+
+.contact {
+  background-color: #000;
+  display: flex;
+  padding: 20px;
+  width: 100%;
+}
+
+.alamat {
+  width: 60%;
+  color: white;
+}
+
+.socialMedia {
+  padding: 0 20px;
+  width: 40%;
+  display: flex;
+  align-items: center;
+}
+
+.socialMedia ul {
+  width: 100%;
+  display: flex;
+  justify-content: space-around;
+
+}
+
+.socialMedia ul li {
+  list-style: none;
+
+}
+
+.socialMedia ul li a {
+  color: white;
+  text-decoration: none;
+  font-size: 30px;
+  transition: all 0.3s ease;
+}
+
+.socialMedia ul li a:hover {
+  color: red;
+  transition: all 0.3s ease;
+}
+
+@media screen and (max-width: 765px) {
+  .contact {
+    flex-direction: column;
+  }
+
+  .alamat {
+    width: 100%;
+  }
+
+  .socialMedia {
+    width: 100%;
+    margin-top: 20px;
+  }
+}

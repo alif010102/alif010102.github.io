@@ -1,0 +1,129 @@
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Product | Anamhor</title>
+    <link rel="stylesheet" href="product_files/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css"
+        integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="icon" href="product_files/images/anamhor2.png" type="image/png" />
+</head>
+
+<body>
+    <!-- Header -->
+    <header class="header">
+        <nav class="navbar">
+            <div class="logo">
+                <a href="./">
+                    <img src="product_files/images/anamhor.png" alt="logo">
+                </a>
+            </div>
+            <menu class="menu">
+                <ul>
+                    <li class="hidenavbar">
+                        <a href="./product">PRODUCTS</a>
+                    </li>
+                    <li class="hidenavbar">
+                        <a href="./about-us">ABOUT US</a>
+                    </li>
+                    <li class="hidenavbar">
+                        <a href="./contact-us">CONTACT US</a>
+                    </li>
+                    <li>
+                        <a onclick="showSidebar()">
+                            <i class="fa-solid fa-bars" id="menuBar" style="font-size: 15px;"></i>
+                        </a>
+                    </li>
+                </ul>
+            </menu>
+        </nav>
+    </header>
+    <!-- Sidebar -->
+    <sidebar>
+        <nav>
+            <ul class="sidebar">
+                <li>
+                    <a onclick="closeSidebar()">
+                        <i class="fa-solid fa-xmark" style="font-size: 20px;"></i>
+                    </a>
+                </li>
+                <li>
+                    <a href="./product">Product</a>
+                </li>
+                <li>
+                    <a href="./about-us">About Us</a>
+                </li>
+                <li>
+                    <a href="./contact-us">Contact Us</a>
+                </li>
+            </ul>
+        </nav>
+    </sidebar>
+    <!-- Isi Konten -->
+    <div class="main" id="main">
+    </div>
+    <div class="popupProduct">
+        <div class="popupProductContent">
+            <div class="closePopup">
+                <i class="fa-regular fa-circle-xmark" id="closePopupButton" onclick="closePopup()"></i>
+            </div>
+            <div class="gambarPopup" id="gambarPopup">
+                <!-- <img src="/product_files/images/product/box-panel.jpg" alt="" srcset=""> -->
+            </div>
+            <div class="deskripsiPopup" id="deskripsiPopup">
+                <!-- <h4>Box Panel</h4>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ex, distinctio. Incidunt sunt, rem dicta quaerat facilis corporis cumque accusantium blanditiis explicabo tempora similique dolorem quis dignissimos vero dolores in ipsa?</p> -->
+            </div>
+        </div>
+    </div>
+    <!-- footer -->
+    <footer>
+        <div class="copyright">
+            <p>Copyright &copy; 2025 CV ANAMHOR</p>
+        </div>
+        <div class="contact">
+            <div class="alamat">
+                <p>Alamat Kantor:</p>
+                <p>Jl. Pikiran Rakyat No.12, Komp. Wartawan, Kec. Baleendah, Kab. Bandung, Jawa Barat</p><br>
+                <p>Alamat Workshop:</p>
+                <p>Komp. Bukit Indah Cikahuripan Blok B.14, Kec. Ciparay, Kab. Bandung, Jawa Barat</p><br>
+                <p>Telepon: +6281 2207 2109</p>
+            </div>
+            <div class="socialMedia">
+                <ul>
+                    <li>
+                        <a href="#" class="instagram">
+                            <i class="fa-brands fa-instagram"></i>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#" class="facebook">
+                            <i class="fa-brands fa-square-facebook"></i>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="http://wa.me/628122072109" class="whatsapp">
+                            <i class="fa-brands fa-whatsapp"></i>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#" class="youtube">
+                            <i class="fa-brands fa-youtube"></i>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="mailto:anamhor_ergonomi@Yahoo.com" class="gmail">
+                            <i class="fa-solid fa-envelope"></i>
+                        </a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </footer>
+
+</body>
+<script src="product_files/script.js"></script>
+
+</html>
