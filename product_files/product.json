@@ -1,0 +1,445 @@
+{
+    "products": [
+      {
+        "id":1,
+        "title": "Kursi Antropometri (Kaki Hydraulic)",
+        "harga":"17.850.000",
+        "image": "Kursi Antropometri Hydraulic.jpg",
+        "summary": "Box panel merupakan box penyimpanan elektrik.",
+        "description":"Bahan : Stainless Steel <br>Sistem Naik Turun : Hidrolik <br>Geser Ukur : Hard Nylon <br>Kapasitas duduk : 0.2 ton <br>Titik Ukur Utama : 27 point <br>Ukuran / bahan : mm/logam& plastik <br>Tinggi Popliteal Max : 430 mm <br>Tinggi Popliteal Min : 370 mm <br>Warna : Cat duco/Stainless Steel <br>Produk : Anamhor"
+      },
+      {
+        "id":2,
+        "title": "Kursi Antropometri (Kaki Electric)",
+        "harga":"24.750.000",
+        "image": "Kursi Antropometri Hydraulic.jpg",
+        "summary": "Kursi merupakan sebuah alat untuk duduk.",
+        "description":"Bahan : Stainless Steel <br> Sistem Naik Turun : Electric Power <br>Geser Ukur : Hard Nylon <br> Kapasitas duduk : 2 ton <br>Titik Ukur Utama : 41 point <br>ukuran / bahan : mm/logam& plastik<br>Tinggi Popliteal Max : 575 mm<br>Tinggi Popliteal Min : 300 mm<br>Warna : Cat/stainless steel<br>Produk : Anamhor"
+      },
+      {
+        "id":3,
+        "title": "Kursi Kontur Ergonomi",
+        "harga":"7.850.000",
+        "image": "anamhor.png",
+        "summary": "Lampu merupakan alat untuk menerangi tempat-tempat yang gelap.",
+        "description":"Tinggi  : 40 - 50 Cm<br> Lebar : 55 Cm<br> Dinamis  : Hydroulic<br>Jok  : Busa karet<br>Sistem Sandaran : Reclining sit<br> ukur utama : 10 point"
+      },
+      {
+        "id":4,
+        "title": "Flexible Curve",
+        "harga":"385.000",
+        "image": "Flexible Curve.jpeg",
+        "summary": "summarynya",
+        "description":"Bahan   : Karet - timah elastis<br>Panjang  50 Cm<br>Produk  : Jepang"
+      },
+      {
+        "id":5,
+        "title": "Template (Model Peraga)",
+        "harga":"550.000",
+        "image": "anamhor.png",
+        "summary": "summarynya",
+        "description":"Bahan   : Plastik<br>Produk  : Anamhor"
+      },
+      {
+        "id":6,
+        "title": "Timbangan Badan",
+        "harga":"450.000",
+        "image": "anamhor.png",
+        "summary": "summarynya",
+        "description":"Max : 110 Kg. Digital"
+      },
+      {
+        "id":7,
+        "title": "Antropometri Dinamis",
+        "harga":"19.750.000",
+        "image": "Antropometri Dinamis.png",
+        "summary": "summarynya",
+        "description":"Bahan  : Stainless Steel<br>Sistem naik turun : Hard Nylon<br>Tinggi max : 1500 mm<br>Tinggi min : 300 mm<br> Produk  :  Anamhor"
+      },
+      {
+        "id":8,
+        "title": "Goniometer Siku/lutut",
+        "harga":"480.000",
+        "image": "Goniometer Siku.jpg",
+        "summary": "summarynya",
+        "description":"Bahan   : Plastik<br>Ukuran derajat : Adjustable"
+      },
+      {
+        "id":9,
+        "title": "Goniometer Jari",
+        "harga":"225.000",
+        "image": "Goniometer Jari.png",
+        "summary": "summarynya",
+        "description":"Bahan   : Plastik<br>Ukuran derajat : Adjustable"
+      },
+      {
+        "id":10,
+        "title": "Chest Depth Caliper",
+        "harga":"715.000",
+        "image": "Chest Depth Caliper.png",
+        "summary": "summarynya",
+        "description":" Bahan  : Stainless<br> Produk  : Swiss<br>Ukuran   : Adjustable"
+      },
+      {
+        "id":11,
+        "title": "Vernier Caliper",
+        "harga":"45.500",
+        "image": "Vernier Caliper.jpg",
+        "summary": "summarynya",
+        "description":"Bahan  : Plastik<br>Produk  : RRC<br>Ukuran   : Adjustable"
+      },
+      {
+        "id":12,
+        "title": "Pita Ukur",
+        "harga":"282.500",
+        "image": "Pita Ukur.jpg",
+        "summary": "summarynya",
+        "description":" Bahan  : Plastik<br>Produk  : Swiss<br>Ukuran   : Adjustable"
+      },
+      {
+        "id":13,
+        "title": "Digital Grip Strength Dynamometer",
+        "harga":"4.900.000",
+        "image": "Digital Grip Strength Dynamometer.jpg",
+        "summary": "summarynya",
+        "description":"Scala Readout   : kilograms 90<br>Mechanism system   : Analog/digital<br>Made in   : RRC "
+      },
+      {
+        "id":14,
+        "title": "Digital Back Strength Dynamometer",
+        "harga":"7.850.000",
+        "image": "Digital Back Strength Dynamometer.png",
+        "summary": "summarynya",
+        "description":"Measurement range : 0 - 200 Kg.<br>Power  : 1 x 9 volt<br>Function  : On/Off, timer   - 0 - 400C"
+      },
+      {
+        "id":15,
+        "title": "Steker",
+        "harga":"275.000",
+        "image": "Steker.jpg",
+        "summary": "summarynya",
+        "description":"Broco (48 bh.)"
+      },
+      {
+        "id":16,
+        "title": "Gravity Boxes",
+        "harga":"220.500",
+        "image": "anamhor.png",
+        "summary": "summarynya",
+        "description":"Bahan   : Stainless<br>Ukuran  : 17cm3<br> Produk  : Anamhor<br> Garansi  : 1 tahun"
+      },
+      {
+        "id":17,
+        "title": "Hand Truk",
+        "harga":"650.000",
+        "image": "anamhor.png",
+        "summary": "summarynya",
+        "description":"Bahan   : Besi/Kayu Jati<br>Ukuran   : 35 x 50 Cm<br>Produk  : Anamhor"
+      },
+      {
+        "id":18,
+        "title": "Belt Conveyor + Curve Conveyor Belt ",
+        "harga":"124.500.000",
+        "image": "Belt Conveyor.jpg",
+        "summary": "summarynya",
+        "description":"Konveyor system : Regulator variabel Digital<br>Motor  : 1/2 Pk/1Fs/220-240 V/3-7.5 A<br>Speed  : Digital Variabel System <br>Belt  : Lebar 25 Cm. / tebal 3 mm<br>Max. bobot beban  : 25 Kg.--- counter product system<br>Batas tepi  : Fixed 5 Cm.<br>Tinggi kaki : 74 - 80 Cm / trekbout<br>Panjang  : @2m -3 bh  (6 meter+ Curve  ) + 1.2 m Gravity sliding (total panjang 7,2 m)<br>Garansi  : Konstruksi dan belt 1 tahun<br>Produk  :  Anamhor"
+      },
+      {
+        "id":19,
+        "title": "Kursi Praktek Dinamis",
+        "harga":"650.000",
+        "image": "anamhor.png",
+        "summary": "summarynya",
+        "description":"Bahan / Jok : Besi / Busa karet<br>Sistem naik turun : hidrolix<br>Tinggi max : 55 Cm<br>Tinggi min : 45 Cm"
+      },
+      {
+        "id":20,
+        "title": "Meja praktek  Ergonomi",
+        "harga":"4.750.000",
+        "image": "anamhor.png",
+        "summary": "summarynya",
+        "description":" Bahan   :Tiang besi Hollo Galvanis<br>Alas      : Multi corak jati<br>Tinggi   : 70 – 105 Cm<br>Alas meja  : 0 – 25o<br>Lebar   : 55<br>Panjang  : 70 Cm<br> Produk  : Anamhor"
+      },
+      {
+        "id":21,
+        "title": "Sound Level Meter",
+        "harga":"5.850.000",
+        "image": "Sound Level Meter.jpeg",
+        "summary": "summarynya",
+        "description":"Display  : 18 mm (0.7”) LCD<br>Measurement range : 35 to 130 dB, input signal only, 3 range Resulution : 0.1 dB<br>Function  : dB (a&C frequency weighting),  time weighting (fast,low) Hold<br>Made in  : Taiwan"
+      },
+      {
+        "id":22,
+        "title": "Lux Meter",
+        "harga":"5.950.000",
+        "image": "Lux Meter.jpeg",
+        "summary": "summarynya",
+        "description":" Display  : 13 mm (0.5”) LCD<br>Measurement : Lux, FT-Candle(Fc)<br> Range  : lux –0 to 50,000 lux 3 range FT-candle 0-5,000 Fc. 3 range<br>Sensor  : exclusive photo diode & coror corection filter, spectrum C.I.E.<br>Made in  : Taiwan"
+      },
+      {
+        "id":23,
+        "title": "Ruang Iklim",
+        "harga":"82.950.000",
+        "image": "Ruang Iklim.jpg",
+        "summary": "summarynya",
+        "description":"Ukuran    : P 3mx L 2mx T 2,4m<br>Rangka    : Besi Galvanis Hollo  4cm x 8 cm<br>Vetilasi    : kaca 1 Cm(double)  Uk. 40cm x 60cm<br>Tebal dinding : 100 mm<br>Dinding luar   : Rock Wall 100/50 dan dilapisi karpet<br>Dinding dalam : Rock Wall 100/50 dan dilapisi karpet<br>Pintu    : Double pintu-Rock Wall 100/50 dan lapis karpet<br>Lantai  : Peredam + karpet<br> Produk : Anamhor"
+      },
+      {
+        "id":24,
+        "title": "Pengendali Ruang Iklim System Computer",
+        "harga":"75.700.000",
+        "image": "Ruang Iklim.jpg",
+        "summary": "summarynya",
+        "description":"-----Sensor-----<br>Sensor : Suhu ruangan ( -200  sd  1372  celcius )<br>sensor cahaya       : 20 sd 20.000 lux<br>sensor kebisingan : Suara (dB) 30 sd 130 dB<br>sensor aliran udara (anemometer) : 0.4 m/s  sd  30.00 m/s<br>sensor kelembaman   : (humadity) 5 sd 98 % RH<br>-----Komputer-----<br>Processor core 2 duo 63000, Ram 2 Gb, Motherboard extreme G41, HD 160 Gb., DVD read/write, Monitor LED 19'' USB 4 channel CCTV analog 1 mp<br>-----Control Intensitas Cahaya-----<br>Main mostet power amplifier 2 x 200 Watt,Sub power amplifier 2 x 30 watt, microphon dynamic dan condensor, maispeaker full range 10'', woofer 10'',  & Twiter 2 way crossover, sub speaker monitor full rang 2''<br>-----Control Cahaya dan Suhu-----<br>Lampu pijar philips100 Watt., lampu LED Philips 10,19,27, Down light  LED in lite 50 Watt, 100 watt. Rotactor CCTV right, left, automatic movement<br>DATALOGGING (RECORD -MS EXCEL)"
+      },
+      {
+        "id":25,
+        "title": "Reaction Time Measuring Instrument",
+        "harga":"11.800.000",
+        "image": "Reaction Time Measuring Instrument.jpg",
+        "summary": "summarynya",
+        "description":"Display  : Digital<br> Kec. Counter           : 1/100 det.<br> Tombol reaksi opt.  : 4 Tomb<br> Stopwatch                         : 0’00’’to9’59’’<br> Loud speaker                    : 10 watt<br> Pilihan sound  : 5 macam Hz-Khz<br> Pilihan lampu warna  : 3 warna<br> Tombol tester    : 6 tombol<br> Volt. In               : 220 – 240 Volt"
+      },
+      {
+        "id":26,
+        "title": "Spirometer /  VO2 Max",
+        "harga":"4.450.000",
+        "image": "anamhor.png",
+        "summary": "summarynya",
+        "description":"Measuring range  : 1000 – 7000cc/100cc<br> Mouth pieces : 50<br> Made in  : Japan"
+      },
+      {
+        "id":27,
+        "title": "Heart Rate Monitor",
+        "harga":"2.950.000",
+        "image": "anamhor.png",
+        "summary": "summarynya",
+        "description":"Measuring range  : 15 – 250 beats per minute<br> Pulse alarms : upper,lower limit setting,  0-190 beats per minute<br> Clock  : hour, minute,and seconds<br>  (12-hour & 24-hour switchable)<br> Stopwatch : measurement from 00'00''  to 59'59''<br> Made in  : Taiwan"
+      },
+      {
+        "id":28,
+        "title": "Ergocycle",
+        "harga":"7.890.000",
+        "image": "Ergocycle.png",
+        "summary": "summarynya",
+        "description":""
+      },
+      {
+        "id":29,
+        "title": "Thermometer + HG",
+        "harga":"",
+        "image": "anamhor.png",
+        "summary": "summarynya",
+        "description":"Measuring range  : oC  oF<br> Temperatur : -10 oC to + 60 oC<br>    +14 oF to + 140 oF<br> Humidity  : 10% - 99%<br> Made in  : Itali"
+      },
+      {
+        "id":30,
+        "title": "Air Conditioning",
+        "harga":"9.600.000",
+        "image": "anamhor.png",
+        "summary": "summarynya",
+        "description":"Portable"
+      },
+      {
+        "id":31,
+        "title": "Stop Watch",
+        "harga":"390.000",
+        "image": "anamhor.png",
+        "summary": "summarynya",
+        "description":"Measurement from 00'00” to 59'59”<br> Memory : 50"
+      },
+      {
+        "id":32,
+        "title": "Blower",
+        "harga":"852.500",
+        "image": "anamhor.png",
+        "summary": "summarynya",
+        "description":"Speed Rpm Adjustable"
+      },
+      {
+        "id":33,
+        "title": "ECG",
+        "harga":"75.500.000",
+        "image": "ECG.jpg",
+        "summary": "summarynya",
+        "description":"FUKUDA"
+      },
+      {
+        "id":34,
+        "title": "Treadmill",
+        "harga":"21.600.000",
+        "image": "Treadmill.jpg",
+        "summary": "summarynya",
+        "description":"Automatic incline 1-12%<br>Speed 0.8 - 16 km/h<br>Motor 2.00 HP<br>Fordable with hidrolic system<br>Computer fungtion: Digital LCD Control, Pulse, Calories, Distance, Time, Speed, and 12 Program"
+      },
+      {
+        "id":35,
+        "title": "Lantai Power Vibrator",
+        "harga":"65.500.000",
+        "image": "Lantai Power Vibrator.png",
+        "summary": "summarynya",
+        "description":"Ukuran : P 175 cm x L 150 cm x T 40 cm<br> Frequency range : 10 Hz - 999 Hz<br> Motor penggerak 1 hp 1 phase<br> Alas : besi plat bordes 2mm<br> Inverter : 1 hp, Puly 7”<br> Rangka konstruksi : besi unp 50 sd 80, siku 50x50x40 , mm<br> As besi 20 – 30 mm"
+      },
+      {
+        "id":36,
+        "title": "Measuring Rod Caliper",
+        "harga":"5.800.000",
+        "image": "anamhor.png",
+        "summary": "summarynya",
+        "description":" Uk. P. 100 cm , L: 6 Cm, Tebal 2,5 Cm"
+      },
+      {
+        "id":37,
+        "title": "Statur Meter (Alat Ukur tinggi Badan)",
+        "harga":"8.950.000",
+        "image": "Statur Meter.jpg",
+        "summary": "summarynya",
+        "description":"Uk. P .200 Cm Ajustable made in Germany"
+      },
+      {
+        "id":38,
+        "title": "Torso",
+        "harga":"3.950.000",
+        "image": "anamhor.png",
+        "summary": "summarynya",
+        "description":"Fiber"
+      },
+      {
+        "id":39,
+        "title": "Generator Acak",
+        "harga":"9.250.000",
+        "image": "generator acak.jpg",
+        "summary": "summarynya",
+        "description":"Bahan   : Fiber/besi<br> Ukuran   : O 35 x 80 Cm<br> Produk  : Anamhor"
+      },
+      {
+        "id":40,
+        "title": "Neraca Timbangan",
+        "harga":"2.530.000",
+        "image": "anamhor.png",
+        "summary": "summarynya",
+        "description":""
+      },
+      {
+        "id":41,
+        "title": "Rollet",
+        "harga":"5.725.000",
+        "image": "Rollet.jpg",
+        "summary": "summarynya",
+        "description":"Diameter 60 cm"
+      },
+      {
+        "id":42,
+        "title": "Kelereng",
+        "harga":"137.500",
+        "image": "Kelereng.jpg",
+        "summary": "summarynya",
+        "description":"Corak"
+      },
+      {
+        "id":43,
+        "title": "Vernier Caliper",
+        "harga":"82.500",
+        "image": "Vernier Caliper stainless.jpg",
+        "summary": "summarynya",
+        "description":" Bahan  : Stainless<br> Produk  : RRC<br> Ukuran   : Adjustable"
+      },
+      {
+        "id":44,
+        "title": "Box Contener Mini",
+        "harga":"97.900",
+        "image": "anamhor.png",
+        "summary": "summarynya",
+        "description":"Bahan   : Stainless<br> Ukuran  : 17cm3"
+      },
+      {
+        "id":45,
+        "title": "Stop Watch",
+        "harga":"390.000",
+        "image": "anamhor.png",
+        "summary": "summarynya",
+        "description":"Measurement from 00’00”  to 59’59”<br>Memory : 50"
+      },
+      {
+        "id":41,
+        "title": "Mesin Bubut Kayu",
+        "harga":"8.500.000",
+        "image": "Mesin Bubut Kayu.jpg",
+        "summary": "summarynya",
+        "description":"Panjang  :125 cm   <br>Tinggi Dudukan : 65 cm <br>Kec ; Adjustable<br> Produk : RRC"
+      },
+      {
+        "id":42,
+        "title": "Mesin Bubut Logam",
+        "harga":"49.800.000",
+        "image": "Mesin Bubut Logam.jpg",
+        "summary": "summarynya",
+        "description":"Axis Of Range  110 mm<br> Lenght Of Effective Operating  520 mmv<br> Spindle Chuck  20 mm<br> Max. Chuck  150 mm<br> Spindle Speed  140 - 1710 rpm<br> Screw Cutting (Matrix)  0.4 - 3 mm<br> Screw Cutting (Inch)  56 - 8 tp"
+      },
+      {
+        "id":43,
+        "title": "Ragum",
+        "harga":"1.200.000",
+        "image": "Ragum.jpg",
+        "summary": "summarynya",
+        "description":"Capasity : 10 cm"
+      },
+      {
+        "id":44,
+        "title": "Gergaji Triplek",
+        "harga":"50.500",
+        "image": "Gergaji Triplek.jpg",
+        "summary": "summarynya",
+        "description":""
+      },
+      {
+        "id":45,
+        "title": "Tamia",
+        "harga":"38.000",
+        "image": "Tamia.jpg",
+        "summary": "summarynya",
+        "description":"bahan : Plastik<br> Panjang  50 Cm"
+      },
+      {
+        "id":46,
+        "title": "Gergaji kayu",
+        "harga":"3.950.000",
+        "image": "Gergaji kayu.jpg",
+        "summary": "summarynya",
+        "description":"Makita"
+      },
+      {
+        "id":47,
+        "title": "Mesin Grinding",
+        "harga":"7.800.000",
+        "image": "Mesin Grinding.png",
+        "summary": "summarynya",
+        "description":"1 pk"
+      },
+      {
+        "id":48,
+        "title": "Mesin Drilling",
+        "harga":"49.500.000",
+        "image": "Mesin Drilling.jpg",
+        "summary": "summarynya",
+        "description":" Max. Drill cap : 12,5/16mm<br> Diameter coulumn : 60 mm<br> speindel speed : 4 "
+      },
+      {
+        "id":49,
+        "title": "Mesin alas kaki (sandal jepit)",
+        "harga":"65.700.000",
+        "image": "anamhor.png",
+        "summary": "summarynya",
+        "description":"Mesin Pond (Press Potong)<br> Mesin Roll (Press Lem)<br> Mesin Bor pelubang<br> Mesin Gerinda (Selep Sandal)<br> Mesin Tarik Japit (penarik Jepitan sandal)<br> Mesin Embos logo"
+      },
+      {
+        "id":50,
+        "title": "Mock up Stasiun kerja",
+        "harga":"198.000.000",
+        "image": "anamhor.png",
+        "summary": "summarynya",
+        "description":"Konveyor system : Regulator variabel Digital<br> Motor  : 1/2 Pk/1Fs/220-240 V/3-7.5 A<br> Speed  : Digital Variabel System <br>Belt  : Lebar 25 Cm. / tebal 3 mm.<br> Max. bobot beban  : 25 Kg.--- counter product system<br> Batas tepi  : Fixed 5 Cm.       <br>Tinggi kaki : 74 – 80 Cm / trekbout<br> Panjang  : @2m -4 bh  (6 meter+ Curve  ) + 1.2 m Gravity sliding <br>(total panjang 9,2 m)<br> Garansi  : Konstruksi dan belt 1 tahun<br>Meja Stasiun kerja 8  + Kursi hidrolik 8<br> Troly <br>Obyek praktikum (steker 100 bh)"
+      }
+    ]
+  }
+  
