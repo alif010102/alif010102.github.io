@@ -133,6 +133,26 @@ color: #fff;
     }
 }
 /* End of Header */
+/* SearchBar */
+.searching{
+  display: flex;
+  width: 100%;
+  height: auto;
+  padding: 100px 0 0 0 ;
+  justify-content: center;
+  background-color: rgb(223, 223, 223);
+}
+.searching input{
+  width: 80%;
+  height: 4em;
+  border-radius: 2em;
+  font-family: "Poppins",serif;
+  padding: 0 20px;
+  font-size: 10px;
+  border: gray 1px solid;
+}
+
+/* End of SearchBar */
 /* Product Card */
 .main{
   display: flex;
@@ -141,7 +161,6 @@ color: #fff;
   justify-content: center;
   height: auto;
   min-height: 80vh;
-  padding: 80px 0 0 0;
   background-color: rgb(223, 223, 223);
 }
 .main a{
@@ -158,6 +177,7 @@ color: #fff;
   text-decoration: none;
   color: black;
   transition: all 0.3s ease-in-out;
+  cursor: pointer;
 }
 .main a img{
   height: 150px;
@@ -216,6 +236,7 @@ color: #fff;
 #closePopupButton {
   font-size: 30px;
   transition: all 0.2s ease-in-out;
+  cursor: pointer;
 }
 #closePopupButton:hover{
   color: red;

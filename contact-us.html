@@ -23,13 +23,13 @@
             <menu class="menu">
                 <ul>
                     <li class="hidenavbar">
-                        <a href="./product">PRODUCTS</a>
+                        <a href="./product.html">PRODUCTS</a>
                     </li>
                     <li class="hidenavbar">
-                        <a href="./about-us">ABOUT US</a>
+                        <a href="./about-us.html">ABOUT US</a>
                     </li>
                     <li class="hidenavbar">
-                        <a href="./contact-us">CONTACT US</a>
+                        <a href="./contact-us.html">CONTACT US</a>
                     </li>
                     <li>
                         <a onclick="showSidebar()">
@@ -50,13 +50,13 @@
                     </a>
                 </li>
                 <li>
-                    <a href="./product">Product</a>
+                    <a href="./product.html">Product</a>
                 </li>
                 <li>
-                    <a href="./about-us">About Us</a>
+                    <a href="./about-us.html">About Us</a>
                 </li>
                 <li>
-                    <a href="./contact-us">Contact Us</a>
+                    <a href="./contact-us.html">Contact Us</a>
                 </li>
             </ul>
         </nav>
@@ -76,11 +76,12 @@
             <form class="isian" action="https:api.web3forms.com/submit" method="POST">
                 <p>TINGGALKAN PESAN:</p>
                 <input type="hidden" name="access_key" value="fa78b320-eafb-47c2-96ac-a01c60d69ca2">
-                <input type="text" name="name" placeholder="Nama" required>
-                <input type="email" name="email" placeholder="Email" required>
+                <input type="text" name="name" placeholder="Nama" required id="namaOrang">
+                <input type="email" name="email" placeholder="Email" required id="emailOrang">
                 <textarea name="message" id="message" placeholder="Pesan" required></textarea>
                 <div class="tombolKirim">
                     <button type="submit">Kirim Form</button>
+                    <a onclick="kirimWA()" id="tombolKirimWA">Kirim Via WA</a>
                 </div>
             </form>
             <div class="tempat">

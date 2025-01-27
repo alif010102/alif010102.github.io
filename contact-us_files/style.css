@@ -233,6 +233,7 @@ margin-top: 20px;
 .isian textarea{
   width: 100%;
   height: 100px;
+  min-height: 100px;
   margin: 20px 0px;
   background-color: rgb(230, 230, 230);
   border-radius: 5px;
@@ -251,7 +252,7 @@ margin-top: 20px;
   display: flex;
   justify-content: center;
 }
-.tombolKirim button{
+.tombolKirim button, #tombolKirimWA{
   text-decoration: none;
   color: #000;
   font-size: 15px;
@@ -260,12 +261,24 @@ margin-top: 20px;
   border: gray 1px solid;
   border-radius: 2em;
   transition: all 0.2s ease-in-out;
+  margin-left: 10px;
+  cursor: pointer;
 }
-.tombolKirim button:hover{
+.tombolKirim button:hover, #tombolKirimWA:hover{
   color: white;
   border: none;
   background-color: red;
 }
+/* #tombolKirimWA{
+  text-decoration: none;
+  color: #000;
+  font-size: 15px;
+  background-color: white;
+  padding: 15px;
+  border: gray 1px solid;
+  border-radius: 2em;
+  transition: all 0.2s ease-in-out;
+} */
 .tempat{
   width: 50%;
   height: 50vh;
