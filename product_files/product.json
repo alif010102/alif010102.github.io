@@ -36,7 +36,7 @@
         "id":5,
         "title": "Template (Model Peraga)",
         "harga":"550.000",
-        "image": "anamhor.png",
+        "image": "model peraga.jpg",
         "summary": "summarynya",
         "description":"Bahan   : Plastik<br>Produk  : Anamhor"
       },
@@ -44,7 +44,7 @@
         "id":6,
         "title": "Timbangan Badan",
         "harga":"450.000",
-        "image": "anamhor.png",
+        "image": "timbangan badan.jpg",
         "summary": "summarynya",
         "description":"Max : 110 Kg. Digital"
       },
@@ -204,7 +204,7 @@
         "id":26,
         "title": "Spirometer /  VO2 Max",
         "harga":"4.450.000",
-        "image": "anamhor.png",
+        "image": "Spirometer.jpg",
         "summary": "summarynya",
         "description":"Measuring range  : 1000 – 7000cc/100cc<br> Mouth pieces : 50<br> Made in  : Japan"
       },
