@@ -20,7 +20,7 @@
         "id":3,
         "title": "Kursi Kontur Ergonomi",
         "harga":"7.850.000",
-        "image": "anamhor.png",
+        "image": "Kursi kontur ergonomi.png",
         "summary": "Lampu merupakan alat untuk menerangi tempat-tempat yang gelap.",
         "description":"Tinggi  : 40 - 50 Cm<br> Lebar : 55 Cm<br> Dinamis  : Hydroulic<br>Jok  : Busa karet<br>Sistem Sandaran : Reclining sit<br> ukur utama : 10 point"
       },
@@ -124,7 +124,7 @@
         "id":16,
         "title": "Gravity Boxes",
         "harga":"220.500",
-        "image": "anamhor.png",
+        "image": "Gravity boxes.jpg",
         "summary": "summarynya",
         "description":"Bahan   : Stainless<br>Ukuran  : 17cm3<br> Produk  : Anamhor<br> Garansi  : 1 tahun"
       },
@@ -132,7 +132,7 @@
         "id":17,
         "title": "Hand Truk",
         "harga":"650.000",
-        "image": "anamhor.png",
+        "image": "Gravity boxes.jpg",
         "summary": "summarynya",
         "description":"Bahan   : Besi/Kayu Jati<br>Ukuran   : 35 x 50 Cm<br>Produk  : Anamhor"
       },
@@ -156,7 +156,7 @@
         "id":20,
         "title": "Meja praktek  Ergonomi",
         "harga":"4.750.000",
-        "image": "anamhor.png",
+        "image": "meja praktek ergonomi.jpg",
         "summary": "summarynya",
         "description":" Bahan   :Tiang besi Hollo Galvanis<br>Alas      : Multi corak jati<br>Tinggi   : 70 – 105 Cm<br>Alas meja  : 0 – 25o<br>Lebar   : 55<br>Panjang  : 70 Cm<br> Produk  : Anamhor"
       },
@@ -188,7 +188,7 @@
         "id":24,
         "title": "Pengendali Ruang Iklim System Computer",
         "harga":"75.700.000",
-        "image": "Ruang Iklim.jpg",
+        "image": "pengendali ruang iklim.jpg",
         "summary": "summarynya",
         "description":"-----Sensor-----<br>Sensor : Suhu ruangan ( -200  sd  1372  celcius )<br>sensor cahaya       : 20 sd 20.000 lux<br>sensor kebisingan : Suara (dB) 30 sd 130 dB<br>sensor aliran udara (anemometer) : 0.4 m/s  sd  30.00 m/s<br>sensor kelembaman   : (humadity) 5 sd 98 % RH<br>-----Komputer-----<br>Processor core 2 duo 63000, Ram 2 Gb, Motherboard extreme G41, HD 160 Gb., DVD read/write, Monitor LED 19'' USB 4 channel CCTV analog 1 mp<br>-----Control Intensitas Cahaya-----<br>Main mostet power amplifier 2 x 200 Watt,Sub power amplifier 2 x 30 watt, microphon dynamic dan condensor, maispeaker full range 10'', woofer 10'',  & Twiter 2 way crossover, sub speaker monitor full rang 2''<br>-----Control Cahaya dan Suhu-----<br>Lampu pijar philips100 Watt., lampu LED Philips 10,19,27, Down light  LED in lite 50 Watt, 100 watt. Rotactor CCTV right, left, automatic movement<br>DATALOGGING (RECORD -MS EXCEL)"
       },
@@ -212,7 +212,7 @@
         "id":27,
         "title": "Heart Rate Monitor",
         "harga":"2.950.000",
-        "image": "anamhor.png",
+        "image": "Heart rate monitor.jpg",
         "summary": "summarynya",
         "description":"Measuring range  : 15 – 250 beats per minute<br> Pulse alarms : upper,lower limit setting,  0-190 beats per minute<br> Clock  : hour, minute,and seconds<br>  (12-hour & 24-hour switchable)<br> Stopwatch : measurement from 00'00''  to 59'59''<br> Made in  : Taiwan"
       },
