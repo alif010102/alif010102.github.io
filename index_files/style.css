@@ -1,0 +1,89 @@
+.navbar-brand , .nav-link{
+    color: white;
+}
+
+.hero-section-ku {
+    height: auto;
+    margin-top: 5rem;
+    margin-left: 2px;
+    margin-right: 2px;
+}
+
+.cardSkill {
+    background-color: rgba(11, 23, 40, 1);
+    min-width: 280px;
+}
+
+.edukasinya {
+    border-inline-end: 0;
+}
+
+.judulTempatEdukasi {
+    font-size: medium;
+}
+
+.tempatEdukasi {
+    font-size: small;
+    color: white;
+}
+
+#fotoEngineer {
+    width: 100%;
+    object-fit: contain;
+}
+
+.softwarePake {
+    margin: 0.5rem;
+    width: auto;
+    object-fit: contain;
+    max-height: 1rem;
+}
+
+.card-title,
+.card-text {
+    color: white;
+}
+
+.card-body,
+.card-footer {
+    background-color: #03070e;
+    border-color: #03070e;
+}
+.card{
+    border-color: #233650;
+}
+.badge{
+    background-color: #001c3d;
+}
+
+
+@media (width >=1280px) {
+    .hero-section-ku {
+        height: 80vh;
+        margin-top: 0;
+        margin-inline: 5rem;
+    }
+
+    .edukasinya {
+        border-inline-end: 2px solid white;
+    }
+
+    .judulTempatEdukasi {
+        font-size: x-large;
+    }
+
+    .tempatEdukasi {
+        font-size: large;
+        padding: 1rem;
+    }
+
+    #fotoEngineer {
+        width: 60%;
+    }
+}
+
+@media (width >=1500px) {
+    #fotoEngineer {
+        width: 40%;
+    }
+}
